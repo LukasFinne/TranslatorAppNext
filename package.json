@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "check": "npx prettier src/ --write\n"
+    "eslint": "npx eslint src/",
+    "prettier": "npx prettier src/ --write",
+    "check": "npm run eslint && npm run prettier"
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.0.5",
