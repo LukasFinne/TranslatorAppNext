@@ -2,7 +2,6 @@
 
 import { createWorker } from "tesseract.js";
 import * as deepl from "deepl-node";
-import { TargetLanguageCode } from "deepl-node";
 export type FormState =
   | {
       original?: string;
