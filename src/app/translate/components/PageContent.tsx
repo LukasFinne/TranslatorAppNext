@@ -23,9 +23,10 @@ export default function PageContent() {
             <h1 className={"text-2xl font-bold"}>
               Import a Image to Translate
             </h1>
-            <SelectTool />
+            <SelectTool isPending={isPending} />
             <input
               type="file"
+              disabled={isPending}
               accept={"image/png"}
               name={"image"}
               className="file-input"
@@ -35,9 +36,13 @@ export default function PageContent() {
             <button
               type={"submit"}
               form={"translateForm"}
-              className="btn btn-primary"
+              className={`${isPending ? "pointer-events-none" : ""} btn btn-primary min-w-24`}
             >
-              Translate
+              {isPending ? (
+                <span className="loading loading-dots loading-sm"></span>
+              ) : (
+                "Translate"
+              )}
             </button>
           </div>
           <div className={"flex flex-col items-center"}>
@@ -46,12 +51,14 @@ export default function PageContent() {
               <textarea
                 value={state?.original}
                 readOnly={true}
+                disabled={isPending}
                 className="textarea p-4 mt-2"
                 placeholder=""
               ></textarea>
               <textarea
                 value={state?.translation}
                 readOnly={true}
+                disabled={isPending}
                 className="textarea p-4 mt-2"
                 placeholder=""
               ></textarea>

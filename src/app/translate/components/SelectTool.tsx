@@ -1,6 +1,10 @@
-export default function SelectTool() {
+export default function SelectTool({ isPending }: { isPending: boolean }) {
   return (
-    <select defaultValue="Pick a Translator" className="select">
+    <select
+      disabled={isPending}
+      defaultValue="Pick a Translator"
+      className="select"
+    >
       <option disabled={true}>Pick a Translator</option>
       <option>DeepL</option>
       <option disabled={true}>Chatgpt</option>
