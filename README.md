@@ -10,5 +10,5 @@
 
 ## Supported Languages
 
-## EN -> ZH_TW (English to Traditional Chinese)
+### EN -> ZH_TW (English to Traditional Chinese)
 
