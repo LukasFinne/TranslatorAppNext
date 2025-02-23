@@ -11,7 +11,7 @@ export default function LandingPage() {
             together to be able to translate image text to another language.{" "}
             <br /> <br /> <b>Work in progress...</b>
           </p>
-          <Link href={"/translate"} className="btn  btn-active">
+          <Link href={"/translate"} className="btn btn-primary">
             Get Started
           </Link>
         </div>
