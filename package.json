@@ -14,7 +14,7 @@
   "dependencies": {
     "@tailwindcss/postcss": "^4.1.10",
     "deepl-node": "^1.18.0",
-    "motion": "^12.19.0",
+    "motion": "^12.20.1",
     "next": "15.3.4",
     "react": "^19.0.0",
     "react-dom": "^19.1.0",
