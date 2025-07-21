@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.1.11",
-    "deepl-node": "^1.18.0",
+    "deepl-node": "^1.19.0",
     "motion": "^12.23.5",
     "next": "15.4.2",
     "react": "^19.0.0",
