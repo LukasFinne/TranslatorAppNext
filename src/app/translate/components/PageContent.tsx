@@ -8,11 +8,7 @@ export default function PageContent() {
   const [state, formAction, isPending] = useActionState(translate, undefined);
 
   return (
-    <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1, transition: { duration: 1.5 } }}
-      className="hero bg-base-200 min-h-screen"
-    >
+    <motion.div className="hero bg-base-200 min-h-screen">
       <div className="hero-content text-center">
         <div className="max-w-md flex flex-col space-y-4">
           <form
