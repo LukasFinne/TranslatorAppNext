@@ -12,7 +12,7 @@
     "check": "npm run eslint && npm run prettier"
   },
   "dependencies": {
-    "@tailwindcss/postcss": "^4.1.17",
+    "@tailwindcss/postcss": "^4.1.18",
     "deepl-node": "^1.22.0",
     "motion": "^12.23.26",
     "next": "16.0.7",
