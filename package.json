@@ -15,7 +15,7 @@
     "@tailwindcss/postcss": "^4.3.0",
     "deepl-node": "^1.27.0",
     "motion": "^12.38.0",
-    "next": "16.2.4",
+    "next": "16.2.6",
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
     "tesseract.js": "^7.0.0"
